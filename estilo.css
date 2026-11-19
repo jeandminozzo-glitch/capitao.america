@@ -1,0 +1,70 @@
+body {
+  background-color: #200be08c;      /* MUDE A COR DE FUNDO */
+  color: #f5f3f4;                 /* MUDE A COR DO TEXTO */
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+/* 2. Estilo dos títulos */
+h1, h2, h3 {
+  color: #cc0404;                 /* MUDE A COR DOS TÍTULOS */
+}
+
+/* 3. Caixa do cartão */
+.cartao {
+  background-color: #2105d7;      /* MUDE A COR DO CARTÃO */
+  border: 2px solid #400874;      /* MUDE A BORDA */
+  padding: 20px;
+}
+
+/* 4. Imagem central */
+.area-imagem {
+  text-align: center;
+}
+
+.foto-destaque {
+  width: 1000px;                   /* MUDE O TAMANHO DA FOTO */
+}
+
+/* 5. Foco do teclado (NÃO APAGAR) */
+input:focus, button:focus {
+  outline: 4px solid #56044b;
+}
+
+/* =================================================
+   SUA VEZ! CRIE SUAS REGRAS ABAIXO:
+   - Estilize o fieldset (ex: border)
+   - Estilize o button (ex: background-color, color, padding)
+   - Estilize o footer ou o input
+   ================================================= */
+fieldset {
+  border: 2px solid #FFD700;      /* Borda amarela agrupando as opções */
+  padding: 15px;                  /* Espaço interno */
+  margin-bottom: 20px;            /* Espaço externo abaixo do grupo */
+}
+fieldset {
+  border: 2px solid #FFD700;      /* Borda amarela agrupando as opções */
+  padding: 15px;                  /* Espaço interno */
+  margin-bottom: 20px;            /* Espaço externo abaixo do grupo */
+}fieldset {
+  border: 2px solid #FFD700;      /* Borda amarela agrupando as opções */
+  padding: 15px;                  /* Espaço interno */
+  margin-bottom: 20px;            /* Espaço externo abaixo do grupo */
+}
+
+button {
+  background-color: #FFD700;      /* Botão amarelo ouro de alto destaque */
+  color: #000000;                 /* Texto preto no botão (máximo contraste) */
+  font-size: 18px;                /* Tamanho de letra legível */
+  font-weight: bold;              /* Texto em negrito */
+  padding: 12px 20px;             /* Tamanho confortável para clicar */
+  border: none;                   /* Remove borda padrão feia */
+  cursor: pointer;                /* Mostra a mãozinha ao passar o mouse */
+}
+
+/* =================================================
+   SUA VEZ! CRIE SUAS REGRAS ABAIXO:
+   1. Estilize o fieldset (border, padding)
+   2. Estilize o button (background-color, color, padding, border: none, cursor: pointer)
+   3. Crie input:focus, button:focus com outline visível!
+   ================================================= */

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Capitão América</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <header>
+    <h1>Capitão América</h1>
+  </header>
+  <main>
+    <section class="cartao">
+      <h2>Steve Rogers: o Capitão América</h2>
+      <div class="area-imagem">
+        <!-- PASSO 1: Preencha o alt descrevendo a imagem para o NVDA -->
+        <img 
+          src="cap.avif" 
+          alt="Capitão América é um dos meus super-herói favoritos da Marvel, inclusive no filme 'Os Vingadores" 
+          class="foto-destaque"
+        >
+      </div>
+      <p>Fãs do Capitão América.</p>
+      <h3>Destaques</h3>
+      <ul>
+        <li>12 recusas prévias: Chris Evans resistiu a voltar após Vingadores: Ultimato (2019), sentindo receio de retomar o personagem e achando que a trajetória de Steve Rogers havia se encerrado.</li>
+        <li>Proposta dos irmãos Russo: O ator aceitou após ouvir a visão criativa dos diretores Anthony e Joe Russo para Vingadores: Doutor Destino, que retoma a história após Ultimato e envolve uma ameaça do Doutor Destino e o multiverso.</li>
+      </ul>
+      <form>
+        <h3>Participe da enquete abaixo</h3>
+        <p>
+          <label for="nome-usuario">Jean:</label>
+          <!-- PASSO 2 (Parte A): Adicione o atributo required neste input -->
+          <input type="text" id="nome-usuario" minlength="3" aria-describedby="dica-nome">
+          <small id="dica-nome">Herói, salvador do povo americano e difícil de derrotar .</small>
+        </p>
+        <p>
+          <!-- PASSO 3: Ligue este label ao input usando for="email-usuario" e id="email-usuario" -->
+          <label>jeandminozzo@gmail.com:</label>
+          <input type="email">
+        </p>
+        <fieldset>
+          <legend>Escolha UMA opção (Radio):</legend>
+          <input type="radio" id="op1" name="escolha" value="opcao1">
+          <label for="op1">Gosta do filme do Capitão América individualmente</label><br>
+          <input type="radio" id="op2" name="escolha" value="opcao2">
+          <label for="op2">Gosta do filme do Capitão América em "Os Vingadores"</label>
+        </fieldset>
+        <fieldset>
+          <legend>Marque quantas opções quiser</legend>
+          <input type="checkbox" id="check1" name="extras" value="item1">
+          <label for="check1">Não sou fã do Capitão América</label><br>
+          <input type="checkbox" id="check2" name="extras" value="item2">
+          <label for="check2">Nunca ouvi falar sobre o Capitão América</label>
+        </fieldset>
+        <!-- PASSO 2 (Parte B):  identifique o que falta neste botão -->
+        <button>Enviar</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Capitão América - Quiz</p>
+  </footer>
+</body>
+</html>
